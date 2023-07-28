@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color: blueviolet;
+        }
+
+        h3:hover{
+            color: brown;
+            background-color: aqua;
+        }
+        input:focus{
+            color: brown;
+        }
+        a:visited{
+            color: rgb(32, 32, 23);
+        }
+        /* li:last-child{
+            color: aqua;
+        } */
+        /* li:first-child{
+            background-color: cadetblue;
+            
+        } */
+        li:nth-child(2n){
+            color: red;
+        }
+        li:nth-child(2n+1){
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <br><br>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://en.wikipedia.org/wiki/Thailand">Thailand</a>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="https://www.youtube.com/">youtube</a>
+    <ul>
+        <li>aaaa</li>
+        <li>bbbb</li>
+        <li>cccc</li>
+        <li>dddd</li>
+        <li>eeee</li>
+        <li>ffff</li>
+        <li>hhhh</li>
+    </ul>
+</body>
+</html>
